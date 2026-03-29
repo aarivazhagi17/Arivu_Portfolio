@@ -25,9 +25,13 @@ function Portfolio() {
 
 
           <div className="col-12 col-md-5 mb-4 mb-md-0">
+            <div className='image-wrapper'>
+               <div className="blob-outline"></div>
+  <div className="blob-outline second"></div>
             <img 
             data-aos="fade-left"
             className='image img-fluid' src={Arivu} alt="" />
+            </div>
           </div>
 
 
