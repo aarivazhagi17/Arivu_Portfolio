@@ -1,6 +1,9 @@
 .body{
      background: linear-gradient(135deg, #000814, #001d3d, #003566);
-     color: white;
+     color: white;margin:0;
+     padding-left: 0;
+     padding-right: 0;
+     overflow-x: hidden;
 }
 /* .image{
     width: 300px;
@@ -9,6 +12,13 @@
     border-radius: 20px;
     margin-right: 100px;
 } */
+ .image {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
 
 .image-wrapper {
   position: relative;
@@ -25,7 +35,7 @@
   transform: translate(-50%, -50%);
   
   border: 3px solid #00c6ff;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  border-radius: 60% 40% 30% 70%;
   
   animation: blobMove 6s infinite ease-in-out;
   z-index: 0;
@@ -38,13 +48,6 @@
   border: 2px solid #0072ff;
   opacity: 0.6;
   animation-duration: 8s;
-}
-.image {
-  position: relative;
-  z-index: 1;
-  width: 300px;
-  margin-top: 30px;
-  border-radius: 20px;
 }
 
 @keyframes blobMove {
@@ -62,9 +65,7 @@
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
-    max-width: 500px;
 }
-
 
 .about{
     margin-top: 60px;

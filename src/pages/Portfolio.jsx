@@ -18,24 +18,24 @@ function Portfolio() {
 
   return (
     <div className='body'>
-      <div id='home' className="container mt-5">
+      <div id='home' className="container-fluid mt-5 px-0">
 
 
-        <div className="row align-items-center text-center text-md-start">
+        <div className="row align-items-center text-center text-md-start g-0">
 
 
-          <div className="col-12 col-md-5 mb-4 mb-md-0">
+          <div className="col-12 col-md-5 mb-4 mb-md-0 px-0">
             <div className='image-wrapper'>
                <div className="blob-outline"></div>
   <div className="blob-outline second"></div>
             <img 
             data-aos="fade-left"
-            className='image img-fluid' src={Arivu} alt="" />
+            className='image' src={Arivu} alt="" />
             </div>
           </div>
 
 
-          <div className="col-12 col-md-7 mb-4 mb-md-0">
+          <div className="col-12 col-md-7 mb-4 mb-md-0 px-0">
             <h1 data-aos="fade-left">I'm Arivazhagi</h1>
 
             <h2 className="text-danger fw-bold mt-3">
