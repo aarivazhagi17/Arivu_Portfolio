@@ -53,7 +53,7 @@ function Portfolio() {
               and back-end technologies. Skilled in building responsive web applications
               using HTML, CSS, JavaScript, and basic backend frameworks.
             </p>
-            <a href="/Fullstack Developer.pdf" download>
+            <a href="/Arivazhagi.pdf" download>
               <button className="btn btn-primary mt-3">
                 Resume
               </button>
