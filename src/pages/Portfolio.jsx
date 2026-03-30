@@ -92,7 +92,7 @@ function Portfolio() {
 
           <div className="col-12 col-md-6 text-danger fw-bold">
             <div className='code-box p-4'>
-              <div className='dots mb-3'>
+              <div className=' mb-3'>
 
                 <pre data-aos="fade-left">
                   <Typewriter
